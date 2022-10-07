@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+
+body{
+
+background-color: blueviolet;
+font-family: 'Alkalami', serif;
+font: 15pt normal;
+
+}
+
+header{
+
+    color: white;
+    text-align: center;
+
+
+}
+
+section{
+  background-color: white;
+  border-radius: 10px;
+  padding: 35px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.188);
+
+}
+
+footer{
+
+  color: white;
+  text-align: center;
+  font-style: italic;
+  transition: 0.4s;
+
+}
+
+footer:hover{
+
+  color: darkgray;
+}
+
+#foto{
+
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding-top: 15px;
+  transition: 0.4s;
+}
+
+#foto:hover{
+
+  filter: grayscale(50%);
+
+}
+
+#botao{
+  
+  background-color: transparent;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#botao:hover{
+
+  background-color: blueviolet;
+  color: white;
+  border: 2px solid black;
+}
